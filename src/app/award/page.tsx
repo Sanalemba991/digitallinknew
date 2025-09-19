@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Awards & Achievements | Digital Link Technology LLC',
     description: 'Explore the awards and recognitions received by Digital Link Technology LLC for delivering innovative technology solutions and excellence in the IT industry.',
     type: 'website',
-    url: 'https://digitallinktechnology.com/awards', // update if actual route differs
+    url: 'https://digitallinktechnology.com/award', // update if actual route differs
   },
   robots: {
     index: true,

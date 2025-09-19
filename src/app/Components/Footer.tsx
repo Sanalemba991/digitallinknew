@@ -72,7 +72,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-2">
           {/* Brand Section - Larger logo */}
           <div className="space-y-2 text-center sm:text-left">
-            <div className="flex-shrink-0 flex items-center">
+            <div className="flex-shrink-0 flex justify-center sm:justify-start">
               <Link
                 href="/"
                 className="flex items-center group transition-all duration-500 ease-in-out"
@@ -87,7 +87,7 @@ const Footer = () => {
                 />
               </Link>
             </div>
-            <p className="text-xs text-gray-400">
+            <p className="text-xs text-gray-400 text-center sm:text-left">
               Transforming ideas into digital reality with innovative solutions.
             </p>
             <div className="flex justify-center sm:justify-start space-x-2">
@@ -98,7 +98,7 @@ const Footer = () => {
                 <FaFacebook className="h-4 w-4" />
               </a>
               <a
-                href="https://www.instagram.com/digiAtallinktechnologyllc/"
+                href="https://www.instagram.com/digitallinktechnologyllc/"
                 className="text-gray-400 hover:text-pink-500 transition-colors duration-300"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -176,11 +176,11 @@ const Footer = () => {
           </div>
 
           {/* Contact - Smaller */}
-          <div className="text-center">
+          <div className="text-center sm:text-left">
             <h3 className="text-sm font-medium text-white mb-2">Office</h3>
             <ul className="space-y-3 text-xs text-gray-400">
               {/* Location with clickable map icon */}
-              <li className="flex justify-center">
+              <li className="flex justify-center sm:justify-start">
                 <button
                   onClick={() => {
                     const encodedAddress = encodeURIComponent(
@@ -199,7 +199,7 @@ const Footer = () => {
               </li>
 
               {/* Email */}
-              <li className="flex justify-center">
+              <li className="flex justify-center sm:justify-start">
                 <a
                   href="mailto:sales@digitallink-sa.com"
                   className="inline-flex items-center gap-2 hover:text-blue-300 transition-colors duration-300 group"
@@ -212,7 +212,7 @@ const Footer = () => {
               </li>
 
               {/* Phone */}
-              <li className="flex justify-center">
+              <li className="flex justify-center sm:justify-start">
                 <a
                   href="tel:+966597015415"
                   className="inline-flex items-center gap-2 hover:text-blue-300 transition-colors duration-300 group"
