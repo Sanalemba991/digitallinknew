@@ -1,16 +1,15 @@
-
 import { Metadata } from "next";
 import ElevatorELVSolutions from "../Components/ElevatorELVSolutions";
 
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'Elevator & ELV Solutions | Digital Link Technology LLC',
+  description: 'Digital Link Technology LLC provides advanced Elevator and ELV (Extra Low Voltage) solutions, delivering reliable, innovative, and efficient technology for modern buildings and businesses.',
+  keywords: 'Elevator solutions, ELV solutions, building technology, smart solutions, Digital Link Technology LLC, security systems, automation',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'Elevator & ELV Solutions | Digital Link Technology LLC',
+    description: 'Digital Link Technology LLC provides advanced Elevator and ELV (Extra Low Voltage) solutions, delivering reliable, innovative, and efficient technology for modern buildings and businesses.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/elevator-elv-solutions', // update if actual route differs
   },
   robots: {
     index: true,
@@ -18,11 +17,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Vision() {
+export default function ElevatorELVSolutionsPage() {
   return (
     <>
-
-     <ElevatorELVSolutions/>
-        </>
+      <ElevatorELVSolutions />
+    </>
   );
 }

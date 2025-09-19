@@ -171,14 +171,7 @@ const Footer = () => {
                   Awards
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/our-company"
-                  className="text-gray-400 hover:text-blue-400 transition-colors duration-300"
-                >
-                  Our Company
-                </Link>
-              </li>
+             
             </ul>
           </div>
 

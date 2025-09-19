@@ -1,16 +1,15 @@
-
 import { Metadata } from "next";
 import ItServices from "../Components/ItServices";
 
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'IT Services & Solutions | Digital Link Technology LLC',
+  description: 'Discover a wide range of IT services and technology solutions offered by Digital Link Technology LLC. From software development to IT consulting, we deliver innovative and reliable solutions for businesses.',
+  keywords: 'IT services, technology solutions, software development, IT consulting, Digital Link Technology LLC, business technology',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'IT Services & Solutions | Digital Link Technology LLC',
+    description: 'Discover a wide range of IT services and technology solutions offered by Digital Link Technology LLC. From software development to IT consulting, we deliver innovative and reliable solutions for businesses.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/it-services', // adjust if actual URL differs
   },
   robots: {
     index: true,
@@ -18,11 +17,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Vision() {
+export default function ItServicesPage() {
   return (
     <>
-
-     <ItServices/>
-        </>
+      <ItServices />
+    </>
   );
 }

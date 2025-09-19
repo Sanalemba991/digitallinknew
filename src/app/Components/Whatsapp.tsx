@@ -52,14 +52,14 @@ const Whatsapp = () => {
   };
 
   const handleWhatsApp = () => {
-    const phoneNumber = '++966 59 701 5415';
+    const phoneNumber = '+971509982727';
     const message = 'Hello DigitalLink! I would like to get in touch.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
   const handleCall = () => {
-    window.open('tel:++966 59 701 5415', '_self');
+    window.open('tel:+966 59 701 5415', '_self');
   };
 
   const handleEmail = () => {

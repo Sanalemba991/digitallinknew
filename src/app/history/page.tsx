@@ -1,16 +1,15 @@
-
 import { Metadata } from "next";
 import DigitalLinkHistory from "@/app/Components/History";
 
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'Company Overview & History | Digital Link Technology LLC',
+  description: 'Discover the journey of Digital Link Technology LLC. Learn about our company history, growth, and commitment to delivering innovative technology solutions worldwide.',
+  keywords: 'company overview, company history, Digital Link Technology LLC, technology solutions, innovation, business growth, about company',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'Company Overview & History | Digital Link Technology LLC',
+    description: 'Discover the journey of Digital Link Technology LLC. Learn about our company history, growth, and commitment to delivering innovative technology solutions worldwide.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/history', // update if actual route differs
   },
   robots: {
     index: true,
@@ -18,11 +17,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CareersPage() {
+export default function HistoryPage() {
   return (
     <>
-
-     <DigitalLinkHistory />
-        </>
+      <DigitalLinkHistory />
+    </>
   );
 }

@@ -1,16 +1,15 @@
-
 import { Metadata } from "next";
 import Team from "../Components/Team";
 
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'About Us | Digital Link Technology LLC',
+  description: 'Learn more about Digital Link Technology LLC, our team, our values, and how we deliver innovative technology solutions that make a difference.',
+  keywords: 'about us, Digital Link Technology LLC, our team, company values, technology solutions, innovation',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'About Us | Digital Link Technology LLC',
+    description: 'Learn more about Digital Link Technology LLC, our team, our values, and how we deliver innovative technology solutions that make a difference.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/about', // adjust if actual URL differs
   },
   robots: {
     index: true,
@@ -21,7 +20,7 @@ export const metadata: Metadata = {
 export default function About() {
   return (
     <>
-    <Team />
-        </>
+      <Team />
+    </>
   );
 }

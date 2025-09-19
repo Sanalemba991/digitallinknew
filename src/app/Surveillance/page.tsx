@@ -1,16 +1,15 @@
-
 import { Metadata } from "next";
 import Servalliance from "../Components/Servelliance";
 
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'Our Services & Alliances | Digital Link Technology LLC',
+  description: 'Explore the wide range of services and strategic alliances offered by Digital Link Technology LLC. We provide innovative technology solutions and trusted partnerships to drive business success.',
+  keywords: 'services, alliances, partnerships, technology solutions, Digital Link Technology LLC, IT services, business growth',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'Our Services & Alliances | Digital Link Technology LLC',
+    description: 'Explore the wide range of services and strategic alliances offered by Digital Link Technology LLC. We provide innovative technology solutions and trusted partnerships to drive business success.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/services-alliances', // update if actual route differs
   },
   robots: {
     index: true,
@@ -18,11 +17,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CareersPage() {
+export default function ServicesAlliancePage() {
   return (
     <>
-<Servalliance />
-        </>
-      
+      <Servalliance />
+    </>
   );
 }

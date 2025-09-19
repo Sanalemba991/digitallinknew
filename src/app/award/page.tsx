@@ -1,16 +1,15 @@
-
 import { Metadata } from "next";
 import Awards from "../Components/Awards";
 
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'Awards & Achievements | Digital Link Technology LLC',
+  description: 'Explore the awards and recognitions received by Digital Link Technology LLC for delivering innovative technology solutions and excellence in the IT industry.',
+  keywords: 'awards, achievements, recognition, Digital Link Technology LLC, technology excellence, industry awards, innovation',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'Awards & Achievements | Digital Link Technology LLC',
+    description: 'Explore the awards and recognitions received by Digital Link Technology LLC for delivering innovative technology solutions and excellence in the IT industry.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/awards', // update if actual route differs
   },
   robots: {
     index: true,
@@ -18,11 +17,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function CareersPage() {
+export default function AwardsPage() {
   return (
     <>
-
-<Awards/>
-        </>
+      <Awards />
+    </>
   );
 }

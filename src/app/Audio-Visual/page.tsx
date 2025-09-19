@@ -1,15 +1,15 @@
-
 import { Metadata } from "next";
 import Audio from "../Components/Audio";
+
 export const metadata: Metadata = {
-  title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-  description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
-  keywords: 'careers, jobs, employment, technology jobs, IT careers, Lovosis Technologies careers',
+  title: 'Audio Solutions | Digital Link Technology LLC',
+  description: 'Digital Link Technology LLC offers professional audio solutions, delivering high-quality sound systems for businesses, events, and organizations with innovative technology.',
+  keywords: 'audio solutions, sound systems, professional audio, business audio, event audio, Digital Link Technology LLC, technology solutions',
   openGraph: {
-    title: 'Careers at Lovosis Technologies Pvt Ltd | Join Our Team',
-    description: 'Explore exciting career opportunities at Lovosis Technologies. Join our innovative team and be part of cutting-edge technology solutions.',
+    title: 'Audio Solutions | Digital Link Technology LLC',
+    description: 'Digital Link Technology LLC offers professional audio solutions, delivering high-quality sound systems for businesses, events, and organizations with innovative technology.',
     type: 'website',
-    url: 'https://lovosis.in/careers',
+    url: 'https://digitallinktechnology.com/audio-solutions', // update if actual route differs
   },
   robots: {
     index: true,
@@ -17,11 +17,10 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Vision() {
+export default function AudioSolutionsPage() {
   return (
     <>
-
-     <Audio/>
-        </>
+      <Audio />
+    </>
   );
 }
