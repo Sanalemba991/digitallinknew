@@ -47,7 +47,6 @@ const Navbar = () => {
   const isCompanyActive = ['/history', '/careers', '/award'].some((p) => pathname?.startsWith(p))
   const isSolutionsActive = ['/IT-AI', '/Elevator-ELV', '/Audio-Visual', '/Surveillance'].some((p) => pathname?.startsWith(p))
 
-
   // Prevent background scroll when mobile menu is open
   useLayoutEffect(() => {
     if (isOpen) {
@@ -105,8 +104,6 @@ const Navbar = () => {
       setActiveDropdown(dropdown)
     }
   }, [activeDropdown])
-
-  
 
   const navigateWithReload = useCallback((url: string) => {
     if (typeof window !== 'undefined') {
@@ -172,9 +169,9 @@ const Navbar = () => {
             </div>
           </Link>
 
-          {/* Mobile menu button */}
+          {/* Mobile/Tablet menu button - Changed from md:hidden to lg:hidden */}
           <button
-            className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-all duration-300 
+            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-all duration-300 
               hover:shadow-md active:bg-gray-200 focus:outline-none focus:ring-2 
               focus:ring-red-500 focus:ring-opacity-50"
             onClick={() => setIsOpen(!isOpen)}
@@ -198,9 +195,9 @@ const Navbar = () => {
             </svg>
           </button>
 
-          {/* Mobile menu content */}
+          {/* Mobile/Tablet menu content - Changed from md:hidden to lg:hidden */}
           <div
-            className={`md:hidden fixed inset-0 z-[9999] transition-all duration-300 ${isOpen ? 'visible' : 'invisible'}`}
+            className={`lg:hidden fixed inset-0 z-[9999] transition-all duration-300 ${isOpen ? 'visible' : 'invisible'}`}
             style={{ pointerEvents: isOpen ? 'auto' : 'none' }}
           >
             {/* Overlay */}
@@ -414,8 +411,8 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8 lg:space-x-12 bg-white">
+          {/* Desktop Navigation - Changed from md:flex to lg:flex */}
+          <div className="hidden lg:flex items-center space-x-8 lg:space-x-12 bg-white">
             {/* Home Link */}
             <div className="relative group">
               <Link
