@@ -67,10 +67,10 @@ const itemVariants = {
 };
 
 const imageVariants: Variants = {
-  hidden: { opacity: 0, x: -60 },
+  hidden: { opacity: 0, y: 60 }, // Changed from x to y axis
   visible: {
     opacity: 1,
-    x: 0,
+    y: 0, // Changed from x to y axis
     transition: { duration: 0.8, ease: "easeOut" }
   }
 };
@@ -334,11 +334,11 @@ const DigitalLinkHistory: React.FC = () => {
                         variants={{
                           hidden: {
                             opacity: 0,
-                            x: index % 2 === 0 ? -100 : 100
+                            y: 50 // Changed from x to y axis
                           },
                           visible: {
                             opacity: 1,
-                            x: 0,
+                            y: 0, // Changed from x to y axis
                             transition: {
                               duration: 1.5,
                               ease: "easeOut",

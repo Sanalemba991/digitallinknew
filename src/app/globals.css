@@ -17,13 +17,10 @@
 
 /* Smooth scrolling for AOS animations */
 html {
+   overflow-x: hidden; 
   scroll-behavior: smooth;
-  overflow-x: hidden; /* Disable horizontal scrolling */
 }
 
-body {
-  overflow-x: hidden; /* Additional protection against horizontal scrolling */
-}
 
 /* Add these custom utilities for 3D card flip effect */
 .perspective {
@@ -40,14 +37,4 @@ body {
 
 .rotate-y-180 {
     transform: rotateY(180deg);
-}
-
-/* Prevent horizontal scrolling globally */
-* {
-  box-sizing: border-box;
-}
-
-img, video, iframe {
-  max-width: 100%;
-  height: auto;
 }
