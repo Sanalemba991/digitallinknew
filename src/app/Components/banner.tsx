@@ -16,14 +16,14 @@ export default function Banner() {
       image: "/banner/Award 2.png",
       title: <>Award-Winning <span style={{ color: '#3A55E8' }}>Excellence</span></>,
       description: "Recognized globally for our innovative solutions and outstanding technological achievements.",
-      link: "/awards",
+      link: "/award",
       buttonText: "VIEW AWARDS"
     },
     {
       image: "/banner/P 2.png",
       title: <>Enterprise <span style={{ color: '#3A55E8' }}>Solutions</span></>,
       description: "Complete surveillance ecosystems: high-definition cameras, reliable storage, professional cabling, and durable hard disks for long-term performance.",
-      link: "/products",
+      link: "/cctv-system",
       buttonText: "VIEW PRODUCTS"
     },
     {
