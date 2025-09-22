@@ -16,10 +16,10 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
       initial={{ opacity: 0, y: 50 }}
       animate={inView ? { opacity: 1, y: 0 } : {}}
       transition={{ duration: 0.5, delay: index * 0.1 }}
-      className="relative group overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 h-[350px]"
+      className="relative group overflow-hidden rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 h-[350px]"
     >
       {/* Image */}
-      <div className="h-full w-full">
+      <div className="h-full w-full rounded-2xl overflow-hidden">
         <Image
           src={service.image}
           alt={service.title}
@@ -30,7 +30,7 @@ const ServiceCard = ({ service, index }: { service: any, index: number }) => {
       </div>
       
       {/* Overlay content */}
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-transparent flex flex-col justify-start items-center text-center pt-12 px-6">
+      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/30 to-transparent flex flex-col justify-start items-center text-center pt-12 px-6 rounded-2xl">
         {/* Text title instead of icon */}
         <div className="mb-4">
           <h3 className="text-2xl font-bold text-white">{service.title}</h3>

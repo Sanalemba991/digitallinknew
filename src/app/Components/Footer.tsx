@@ -120,15 +120,15 @@ const Footer = () => {
             <h3 className="text-sm font-medium text-white mb-2">Solutions</h3>
             <ul className="space-y-1 text-xs">
               {[
-                { name: "IT & AI Solutions", path: "/solution/it" },
+                { name: "IT & AI Solutions", path: "/IT-AI" },
                 {
                   name: "Elevator ELV Solutions",
-                  path: "/solution/elevatorelvsolutions",
+                  path: "/Elevator-ELV",
                 },
-                { name: "Audio & Visual Solution", path: "/solution/audio" },
+                { name: "Audio & Visual Solution", path: "/Audio-Visual" },
                 {
                   name: "Surveillance Solutions",
-                  path: "/solution/servalliance",
+                  path: "/Surveillance",
                 },
               ].map((item) => (
                 <li key={item.name}>
